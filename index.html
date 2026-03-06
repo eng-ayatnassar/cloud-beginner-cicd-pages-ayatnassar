@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Cloud CI/CD Project</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Cloud CI/CD Project</h1>
+
+<p><b>Name:</b> Ayat Nassar</p>
+<p><b>Course:</b> Cloud Computing</p>
+
+<h2>What is CI/CD?</h2>
+
+<p>
+CI/CD is a modern software development practice that automates the process of delivering applications. 
+Continuous Integration (CI) automatically builds and tests code changes whenever developers push to the 
+repository, catching issues early. Continuous Deployment (CD) automatically deploys the approved code 
+to production. This automation accelerates delivery, reduces manual errors, and enables teams to release 
+updates more frequently and reliably.
+</p>
+
+<h2>My Pipeline</h2>
+
+<p>
+When I push code to the main branch on GitHub, GitHub Actions automatically triggers my workflow. 
+The workflow first checks that all required files (index.html, style.css, script.js) exist, then uploads 
+the website artifacts. Finally, it deploys the site to GitHub Pages, making the updates live within minutes 
+without any manual intervention.
+</p>
+
+<button id="btn">Click Me</button>
+
+<p id="msg"></p>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -9,4 +9,5 @@ Cloud CI/CD Assignment
 Download the project files and open index.html in your browser.
 
 ## GitHub Pages Link
-Will be added after deployment.
+[Will be added after deployment.](https://eng-ayatnassar.github.io/cloud-beginner-cicd-pages-ayatnassar/)
+
